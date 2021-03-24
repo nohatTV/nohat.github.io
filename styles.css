@@ -27,3 +27,8 @@ body {
   outline: none;
   color: inherit;
 }
+
+.dollar:before {
+  content: '!';
+  color: #42f59e;
+}
