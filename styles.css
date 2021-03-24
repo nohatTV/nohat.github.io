@@ -1,16 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	cursor: url(https://github.com/5ad/nohat.github.io/blob/main/cursor.cur), auto !important;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+	cursor: url(cursor.cur), auto !important;
+}
+
+#site {
+	text-align: center;
+	font-size: 16px;
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 55%;
+ 	transform: translate(-50%, -50%);
+	color: #f8f8f8;
+}
+
+body {
+  font: 12px "Monaco", Inconsolata, monospace;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  background: #333;
+  color: #f8f8f8;
+	cursor: url(https://github.com/5ad/nohat.github.io/blob/main/cursor.cur), auto !important;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-/* GLOBAL STYLES */
-body {
-  background: #333;
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
 }
 
 .terminal {
